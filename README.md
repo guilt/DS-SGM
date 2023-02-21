@@ -28,8 +28,7 @@ being able to connect to the hotspot.
 
 This section assumes using the *DSTWO*.
 
-Open the `SGM` folder. Ensure the `SaveGame_Manager.ini`
-file resides in the same directoy.
+Open the `SGM` folder.
 
 Edit the line which reads and set it to the IP of the FTP server:
 
@@ -40,7 +39,8 @@ ftp_ip = 192.168.43.1
 Set Username/Password to `guest` or as appropriate.
 
 Move the `SGM` folder to `_DSTWOPLUG` folder to the SD Card
-used on the DSTWO.
+used on the DSTWO. Move the `SaveGame_Manager.ini` file in it to
+the root of the SD Card.
 
 # Step 3: Run a FTP Server
 
